@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    width: 100%;
+    margin: 0px;
+    background: #FCFCFF 0% 0% no-repeat padding-box;
+}
+
+.logo {
+    margin: 27px 0 0 120px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 0.8s linear 1;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.right-pane {
+    background-position: 80px -227px;
+    width: 1183px;
+    background-image: url(./assets/circle.svg);
+    background-repeat: no-repeat;
+}
+
+.left-pane {
+    width: 737px;
+}
+
+.main-container {
+    width: 1920px;
+}
+
+.nav {
+    font: normal normal normal 25px Open Sans;
+    margin-top: 68px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.login {
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    width: 114px;
+    color: #663399;
+}
+
+.get-started {
+    background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    color: #FFFFFF;
+    width: 166px;
+    border-radius: 24px;
+}
+
+.center-text {
+    font: normal normal normal 16px 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.group-6 {
+    width: 733px;
+    height: 675px;
+    margin: 168px 0 0 83px;
+}
+
+.blob-small {
+    margin-top: 63px;
+    left: -179px;
+    position: relative;
+}
+
+.circle {
+    top: -227.9068603515625px;
+    left: 626px;
+    width: 55.6%;
+    position: absolute;
+    height: 964.39px;
+    opacity: 0.5;
+}
+
+.super-text {
+    position: absolute;
+    margin: 120px 0 0 189px;
+}
+
+.rectangle-black {
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.7;
+    width: 236px;
+    height: 8px;
+    margin: 8px 0 82px 0;
+}
+
+.upper-part {
+    margin-bottom: 131px;
+}
+
+.bottom-part {
+    background-image: url(./assets/sol_wave_bg.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 71px;
+}
+
+.box-container {
+    width: 357px;
+    height: 174px;
+    box-shadow: 0px 0px 30px #2321321F;
+    border-radius: 20px;
+    background-color: #F9F9F9;
+    opacity: 1;
+    padding: 34px 0 45px 34px;
+    margin: 0 0 60px 0;
+}
+
+.img-txt-margin {
+    margin: 19.52px 0 11px 0;
+}
+
+.box-container2 {
+    background-image: url(./assets/Rectangle_purple.svg);
+    background-repeat: no-repeat;
+    width: 323px;
+    padding: 34px;
+    height: 185px;
+    background-position: -46px -45px;
+    margin: 0 0 60px 0;
+}
+
+.create_acc_btn {
+    margin-top: 81px;
+    width: 279px;
+    height: 58px;
+    font: normal normal normal 18px 'Montserrat', sans-serif;
+}
